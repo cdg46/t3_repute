@@ -194,9 +194,26 @@ page {
 			theme_repute__special_feature.value = {$page.fluidtemplate.templateRootPath}SpecialFeature.html
 			theme_repute__special_feature.insertData = 1
 
+			#default = TEXT
+			#default.value = {$page.fluidtemplate.templateRootPath}Default.html
+			#default.insertData = 1
+			
+			
 			default = TEXT
-			default.value = {$page.fluidtemplate.templateRootPath}Default.html
+			default.value = {$page.fluidtemplate.templateRootPath}Blog.html
 			default.insertData = 1
+			
+			theme_repute__accueil = TEXT
+			theme_repute__accueil.value = {$page.fluidtemplate.templateRootPath}Accueil.html
+			theme_repute__accueil.insertData = 1
+			
+			theme_repute__accueil-2 = TEXT
+			theme_repute__accueil-2.value = {$page.fluidtemplate.templateRootPath}Accueil-2.html
+			theme_repute__accueil-2.insertData = 1
+			
+			theme_repute__accueil-3 = TEXT
+			theme_repute__accueil-3.value = {$page.fluidtemplate.templateRootPath}Accueil-3.html
+			theme_repute__accueil-3.insertData = 1
 		}
 		variables {
 			themeNavigationbar = TEXT
