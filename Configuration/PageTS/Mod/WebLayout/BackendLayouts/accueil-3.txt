@@ -1,0 +1,47 @@
+################################
+####  BELAYOUT: EVOLUTION1  ####
+################################
+mod {
+    web_layout {
+        BackendLayouts {
+            accueil {
+                title = LLL:EXT:adico_evolution/Resources/Private/Language/Backend.xlf:backend_layout.accueil
+                config {
+					backend_layout {
+						colCount = 2
+						rowCount = 3
+						rows {
+							1 {
+								columns {
+									1 {
+										name = 0x0
+										colspan = 2
+									}
+								}
+							}
+							2 {
+								columns {
+									1 {
+										name = 0x1
+									}
+									2 {
+										name = 1x1
+									}
+								}
+							}
+							3 {
+								columns {
+									1 {
+										name = 0x2
+										colspan = 2
+									}
+								}
+							}
+						}
+					}
+				}
+                icon = EXT:adico_evolution/Resources/Public/Images/BackendLayouts/evo1_accueil.gif
+            }
+        }
+    }
+}
