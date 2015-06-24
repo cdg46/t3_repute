@@ -1,0 +1,33 @@
+<f:layout name="Default" />
+<f:section name="Main">
+<div class="wrapper">
+	<!-- Header  --> 		
+	<!-- HERO UNIT -->
+	<section class="hero-unit-slider">
+		<div class="col-md-12"> 
+		<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '30'}" />
+		</div>
+	</section>
+	<!-- END HERO UNIT -->
+	<!-- BOXED CONTENT -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '31'}" />
+				</div>
+				<div class="col-md-6">
+					<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '32'}" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END BOXED CONTENT -->
+	<div class="col-md-12"> 
+		<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '33'}" />
+	</div>
+	<!-- Footer  --> 
+</div>
+
+</f:section>
+
