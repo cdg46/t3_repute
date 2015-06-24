@@ -1,10 +1,10 @@
 ################################
-#### BACKENDLAYOUT: DEFAULT ####
+#### BACKENDLAYOUT: ACCUEIL DEFAULT ####
 ################################
 mod {
 	web_layout {
 		BackendLayouts {
-			default {
+			accueil {
 				title = accueil defaut
 				config {
 					backend_layout {
