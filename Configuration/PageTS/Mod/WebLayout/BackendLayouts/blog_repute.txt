@@ -5,7 +5,7 @@ mod {
     web_layout {
         BackendLayouts {
            blog_repute {
-                title = LLL:EXT:t3_repute/Resources/Private/Language/Backend.xlf:backend_layout.Blog
+                title = BLOG REPUTE
                 config {
                     backend_layout {
 						colCount = 4

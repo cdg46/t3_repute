@@ -1,14 +1,8 @@
 page {
 	10 {
-		file.stdWrap.cObject <
-		file.stdWrap.cObject = CASE
-		file.stdWrap.cObject {
+		templateName.stdWrap.cObject {
 			key.data = levelfield:-1, backend_layout_next_level, slide
 			key.override.field = backend_layout
-			
-			default = TEXT
-			default.value = {$page.fluidtemplate.templateRootPath}Blog.html
-			default.insertData = 1
 			
 			bootstrap_package__accueil_1 = TEXT
 			bootstrap_package__accueil_1.value = {$page.fluidtemplate.templateRootPath}Accueil.html
@@ -25,10 +19,27 @@ page {
 			bootstrap_package__blog_repute = TEXT
 			bootstrap_package__blog_repute.value = {$page.fluidtemplate.templateRootPath}Blog.html
 			bootstrap_package__blog_repute.insertData = 1
+			
+			default = TEXT
+			default.value = {$page.fluidtemplate.templateRootPath}Blog.html
+
 		}
 		variables {
 			themeNavigationbar = TEXT
 			themeNavigationbar.value = {$page.theme.navigationbar}
+		}
+
+		templateRootPaths {
+			0 = EXT:bootstrap_package/Resources/Private/Templates/Page/
+			1 = {$page.fluidtemplate.templateRootPath}
+		}
+		partialRootPaths {
+			0 = EXT:bootstrap_package/Resources/Private/Partials/Page/
+			1 = {$page.fluidtemplate.partialRootPath}
+		}
+		layoutRootPaths {
+			0 = EXT:bootstrap_package/Resources/Private/Layouts/Page/
+			1 = {$page.fluidtemplate.layoutRootPath}
 		}
 	}
 }
