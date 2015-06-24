@@ -1,0 +1,20 @@
+backend_layout {
+	colCount = 4
+	rowCount = 1
+	rows {
+		1 {
+			columns {
+				1 {
+					name = News
+					colspan = 3
+					colPos = 0
+				}
+				2 {
+					name = Colonne secondaire
+					colspan = 1
+					colPos = 2
+				}
+			}
+		}
+	}
+}
