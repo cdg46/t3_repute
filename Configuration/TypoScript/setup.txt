@@ -161,6 +161,10 @@ page {
 			theme_repute__accueil-3 = TEXT
 			theme_repute__accueil-3.value = {$page.fluidtemplate.templateRootPath}Accueil-3.html
 			theme_repute__accueil-3.insertData = 1
+			
+			theme_repute__blog = TEXT
+			theme_repute__blog.value = {$page.fluidtemplate.templateRootPath}Blog.html
+			theme_repute__blog.insertData = 1
 		}
 		variables {
 			themeNavigationbar = TEXT
