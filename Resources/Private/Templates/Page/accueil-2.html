@@ -1,0 +1,55 @@
+<f:layout name="Default" />
+<f:section name="Main">
+
+	<!-- HERO UNIT -->
+	<section class="hero-unit-animated">
+		<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '30'}" />
+	</section>
+	<!-- END HERO UNIT -->
+
+	<!-- BOXED CONTENT -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '35'}" />
+				</div>
+				<div class="col-md-4">
+					<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '36'}" />
+				</div>
+				<div class="col-md-4">
+					<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '37'}" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END BOXED CONTENT -->
+
+	<!-- CAROUSEL -->
+	<section class="recent-works slick-carousel">
+		<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '33'}" />
+	</section>
+	<!-- END CAROUSEL -->
+
+	<!-- BRIEF ABOUT -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '31'}" />
+				</div>
+				<div class="col-md-6">
+					<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '32'}" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END BRIEF ABOUT -->
+
+	<!-- TESTIMONIAL + OUR CLIENTS + CALL-TO-ACTION -->
+	<section class="testimonial-fancy">
+		<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '38'}" />
+	</section>
+	<!-- END TESTIMONIAL + OUR CLIENTS + CALL-TO-ACTION -->
+
+</f:section>
