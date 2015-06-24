@@ -1,0 +1,14 @@
+############
+### PAGE ###
+############
+page {
+	theme {
+		# cat=bootstrap package: basic/160/160; type=options[Default=, Fixed Top=1, Auto Hiding=2, Fixed and Shrink=3]; label=Navigation Bar
+		navigationbar = 
+		# cat=bootstrap package: basic/160/161; type=options[Default=, Full=full, Boxed=boxed]; label=Navigation Layout
+		navigationLayout =
+		# cat=bootstrap package: basic/160/162; type=options[Default=, Brown=brown, Deepskyblue=deepskyblue, Goldenrod=goldenrod,Indianred=indianred, Lightgreen,lightgreen, Orange,orange, Seagreen=seagreen, Slategray=slategray]; label=Skin Color
+		skinColor =
+
+	}
+}

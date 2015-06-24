@@ -1,0 +1,15 @@
+plugin.bootstrap_package {
+	settings {
+			less {
+				gray-base
+				headings-color = #474747
+				headings-font-family = "Roboto Condensed"
+				text-color = #4a4a4a
+				body-bg = #474747
+				link-color = #406da4
+				link-hover-color = #355987
+				font-size-base = 13px
+				font-family-sans-serif = "Open Sans", sans-serif
+			}
+	}
+}

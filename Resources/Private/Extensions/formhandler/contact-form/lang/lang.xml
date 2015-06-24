@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Language labels for Contact Form</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="label_fieldset">Contact Form</label>
+			<label index="name">Name:</label>
+			<label index="email">E-Mail:</label>
+			<label index="message">Your Message:</label>
+			<label index="receive-copy">I want to receive a copy of this request</label>
+			<label index="submit">Send</label>
+	
+			<label index="greetings">Dear</label>
+			<label index="email_user_subject">Your contact request</label>
+			<label index="email_user_text">We have received your request via the contact form on www.example.org. We will process your request and get in contact with you soon.</label>
+			<label index="email_user_footer">---------------------------------- This message was created automatically. --------------------------------</label>
+
+			<label index="email_admin_subject">Contact request</label>
+			<label index="email_admin_text">A user filled out the contact form on www.example.org.</label>
+			<label index="email_admin_footer">---------------------------------- This message was created automatically. --------------------------------</label>
+
+			<label index="error_name_required">Please enter your name!</label>
+			<label index="error_email_required">Please enter your email address!</label>
+			<label index="error_email_email">Please enter a valid email address!</label>
+			<label index="error_message_required">Please enter a message!</label>
+		</languageKey>
+	</data>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="label_fieldset">Formulaire de contact</label>
+			<label index="name">Nom :</label>
+			<label index="email">Email :</label>
+			<label index="message">Votre message :</label>
+			<label index="receive-copy">Je souhaite recevoir une copie de ma demande</label>
+			<label index="submit">Envoyer</label>
+	
+			<label index="greetings">Cher</label>
+			<label index="email_user_subject">Votre demande</label>
+			<label index="email_user_text">Nous avons reçu une demande depuis le site internet. Nous allons traiter votre demande.</label>
+			<label index="email_user_footer">---------------------------------- Ce message a été créer automatiquement. --------------------------------</label>
+
+			<label index="email_admin_subject">Demande formulée</label>
+			<label index="email_admin_text">Un utilisateur à rempli une demande depuis le formulaire du site internet.</label>
+			<label index="email_admin_footer">---------------------------------- Ce message a été créer automatiquement. --------------------------------</label>
+
+			<label index="error_name_required">Veuillez renseigner votre nom !</label>
+			<label index="error_email_required">Veuillez renseigner votre adresse email !</label>
+			<label index="error_email_email">Il semble que votre adresse email ne soit pas valide !</label>
+			<label index="error_message_required">Veuillez remplir votre message !</label>
+		</languageKey>
+	</data>
+</T3locallang>
