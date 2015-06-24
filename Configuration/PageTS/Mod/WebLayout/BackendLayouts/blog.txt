@@ -4,8 +4,8 @@
 mod {
     web_layout {
         BackendLayouts {
-           blog {
-                title = LLL:EXT:t3_repute/Resources/Private/Language/Backend.xlf:backend_layout.blog
+           Blog {
+                title = LLL:EXT:t3_repute/Resources/Private/Language/Backend.xlf:backend_layout.Blog
                 config {
                     backend_layout {
 						colCount = 4
@@ -28,7 +28,7 @@ mod {
 						}
 					}
                 }
-                icon = EXT:t3_repute/Resources/Public/Images/BackendLayouts/blog.gif
+                icon = EXT:t3_repute/Resources/Public/Images/BackendLayouts/Blog.gif
             }
         }
     }
