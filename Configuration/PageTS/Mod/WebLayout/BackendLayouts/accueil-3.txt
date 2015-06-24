@@ -1,11 +1,11 @@
-################################
-####  BELAYOUT: EVOLUTION1  ####
-################################
+##############################
+####  BELAYOUT: ACCUEIL3  ####
+##############################
 mod {
     web_layout {
         BackendLayouts {
             accueil {
-                title = LLL:EXT:adico_evolution/Resources/Private/Language/Backend.xlf:backend_layout.accueil
+                title = LLL:EXT:
                 config {
 					backend_layout {
 						colCount = 2
@@ -40,7 +40,7 @@ mod {
 						}
 					}
 				}
-                icon = EXT:adico_evolution/Resources/Public/Images/BackendLayouts/evo1_accueil.gif
+                icon = EXT:
             }
         }
     }
