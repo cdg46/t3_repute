@@ -22,6 +22,7 @@ page {
 			
 			default = TEXT
 			default.value = {$page.fluidtemplate.templateRootPath}Blog.html
+			default.insertData = 1
 
 		}
 		variables {
