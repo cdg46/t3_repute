@@ -145,59 +145,6 @@ page {
 		file.stdWrap.cObject {
 			key.data = levelfield:-1, backend_layout_next_level, slide
 			key.override.field = backend_layout
-
-			theme_repute__default_clean = TEXT
-			theme_repute__default_clean.value = {$page.fluidtemplate.templateRootPath}DefaultClean.html
-			theme_repute__default_clean.insertData = 1
-
-			theme_repute__default_portfolio_2_columns = TEXT
-			theme_repute__default_portfolio_2_columns.value = {$page.fluidtemplate.templateRootPath}DefaultPortfolio2Columns.html
-			theme_repute__default_portfolio_2_columns.insertData = 1
-
-			theme_repute__default_2_columns_25_75 = TEXT
-			theme_repute__default_2_columns_25_75.value = {$page.fluidtemplate.templateRootPath}Default2Columns2575.html
-			theme_repute__default_2_columns_25_75.insertData = 1
-
-			theme_repute__default_2_columns_50_50 = TEXT
-			theme_repute__default_2_columns_50_50.value = {$page.fluidtemplate.templateRootPath}Default2Columns5050.html
-			theme_repute__default_2_columns_50_50.insertData = 1
-
-			theme_repute__default_2_columns_offset_right = TEXT
-			theme_repute__default_2_columns_offset_right.value = {$page.fluidtemplate.templateRootPath}Default2ColumnsOffsetRight.html
-			theme_repute__default_2_columns_offset_right.insertData = 1
-
-			theme_repute__default_3_columns = TEXT
-			theme_repute__default_3_columns.value = {$page.fluidtemplate.templateRootPath}Default3Columns.html
-			theme_repute__default_3_columns.insertData = 1
-
-			theme_repute__default_subnavigation_right = TEXT
-			theme_repute__default_subnavigation_right.value = {$page.fluidtemplate.templateRootPath}DefaultSubNavRight.html
-			theme_repute__default_subnavigation_right.insertData = 1
-
-			theme_repute__default_subnavigation_right_2_columns = TEXT
-			theme_repute__default_subnavigation_right_2_columns.value = {$page.fluidtemplate.templateRootPath}DefaultSubNavRight2Columns.html
-			theme_repute__default_subnavigation_right_2_columns.insertData = 1
-
-			theme_repute__default_subnavigation_left = TEXT
-			theme_repute__default_subnavigation_left.value = {$page.fluidtemplate.templateRootPath}DefaultSubNavLeft.html
-			theme_repute__default_subnavigation_left.insertData = 1
-
-			theme_repute__default_subnavigation_left_2_columns = TEXT
-			theme_repute__default_subnavigation_left_2_columns.value = {$page.fluidtemplate.templateRootPath}DefaultSubNavLeft2Columns.html
-			theme_repute__default_subnavigation_left_2_columns.insertData = 1
-
-			theme_repute__special_start = TEXT
-			theme_repute__special_start.value = {$page.fluidtemplate.templateRootPath}SpecialStart.html
-			theme_repute__special_start.insertData = 1
-
-			theme_repute__special_feature = TEXT
-			theme_repute__special_feature.value = {$page.fluidtemplate.templateRootPath}SpecialFeature.html
-			theme_repute__special_feature.insertData = 1
-
-			#default = TEXT
-			#default.value = {$page.fluidtemplate.templateRootPath}Default.html
-			#default.insertData = 1
-			
 			
 			default = TEXT
 			default.value = {$page.fluidtemplate.templateRootPath}Blog.html
