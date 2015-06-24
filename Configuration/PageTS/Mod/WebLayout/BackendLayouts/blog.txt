@@ -1,0 +1,37 @@
+################################
+#######  BELAYOUT: BLOG  #######
+################################
+mod {
+    web_layout {
+        BackendLayouts {
+           blog {
+                title = LLL:EXT:t3_repute/Resources/Private/Language/Backend.xlf:backend_layout.blog
+                config {
+                    backend_layout {
+						colCount = 4
+						rowCount = 1
+						rows {
+							1 {
+								columns {
+									1 {
+										name = News
+										colspan = 3
+										colPos = 0
+									}
+									2 {
+										name = Colonne Secondaire
+										colspan = 1
+										colPos = 2
+									}
+								}
+							}
+						}
+					}
+                }
+                icon = EXT:t3_repute/Resources/Public/Images/BackendLayouts/blog.gif
+            }
+        }
+    }
+}
+
+
