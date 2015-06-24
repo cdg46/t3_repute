@@ -4,7 +4,7 @@
 mod {
     web_layout {
         BackendLayouts {
-           Blog {
+           blog_repute {
                 title = LLL:EXT:t3_repute/Resources/Private/Language/Backend.xlf:backend_layout.Blog
                 config {
                     backend_layout {

@@ -10,21 +10,21 @@ page {
 			default.value = {$page.fluidtemplate.templateRootPath}Blog.html
 			default.insertData = 1
 			
-			bootstrap_package__accueil = TEXT
-			bootstrap_package__accueil.value = {$page.fluidtemplate.templateRootPath}Accueil.html
-			bootstrap_package__accueil.insertData = 1
+			bootstrap_package__accueil_1 = TEXT
+			bootstrap_package__accueil_1.value = {$page.fluidtemplate.templateRootPath}Accueil.html
+			bootstrap_package__accueil_1.insertData = 1
 			
-			bootstrap_package__accueil-2 = TEXT
-			bootstrap_package__accueil-2.value = {$page.fluidtemplate.templateRootPath}Accueil-2.html
-			bootstrap_package__accueil-2.insertData = 1
+			bootstrap_package__accueil_2 = TEXT
+			bootstrap_package__accueil_2.value = {$page.fluidtemplate.templateRootPath}Accueil-2.html
+			bootstrap_package__accueil_2.insertData = 1
 			
-			bootstrap_package__accueil-3 = TEXT
-			bootstrap_package__accueil-3.value = {$page.fluidtemplate.templateRootPath}Accueil-3.html
-			bootstrap_package__accueil-3.insertData = 1
+			bootstrap_package__accueil_3 = TEXT
+			bootstrap_package__accueil_3.value = {$page.fluidtemplate.templateRootPath}Accueil-3.html
+			bootstrap_package__accueil_3.insertData = 1
 			
-			bootstrap_package__blog = TEXT
-			bootstrap_package__blog.value = {$page.fluidtemplate.templateRootPath}Blog.html
-			bootstrap_package__blog.insertData = 1
+			bootstrap_package__blog_repute = TEXT
+			bootstrap_package__blog_repute.value = {$page.fluidtemplate.templateRootPath}Blog.html
+			bootstrap_package__blog_repute.insertData = 1
 		}
 		variables {
 			themeNavigationbar = TEXT
@@ -42,5 +42,5 @@ page {
 [end]
 
 [globalVar= LIT:1={$page.10.variables.onePage.value}]
-#	page.includeCSS.theme = EXT:theme_repute/Resources/Private/Less/Theme/main-one-page.less
+#	page.includeCSS.theme = EXT:t3_repute/Resources/Private/Less/Theme/main-one-page.less
 [global]
