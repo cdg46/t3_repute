@@ -1,66 +1,81 @@
-backend_layout {
-	colCount = 6
-	rowCount = 5
-	rows {
-		1 {
-			columns {
-				1 {
-					name = Carousel
-					colPos = 30
-					colspan = 6
+##############################
+####  BELAYOUT: ACCUEIL2  ####
+##############################
+mod {
+    web_layout {
+        BackendLayouts {
+            accueil {
+                title = ACCUEIL 2
+                config {
+					backend_layout {
+						colCount = 6
+						rowCount = 5
+						rows {
+							1 {
+								columns {
+									1 {
+										name = Carousel
+										colPos = 30
+										colspan = 6
+									}
+								}
+							}
+							2 {
+								columns {
+									1 {
+										name = Top1
+										colPos = 35
+										colspan = 2
+									}
+									2 {
+										name = Top2
+										colPos = 36
+										colspan = 2
+									}
+									3 {
+										name = Top3
+										colPos = 37
+										colspan = 2
+									}
+								}
+							}
+							3 {
+								columns {
+									1 {
+										name = Content1
+										colPos = 33
+										colspan = 6
+									}
+								}
+							}
+							4 {
+								columns {
+									1 {
+										name = Content2
+										colPos = 31
+										colspan = 3
+									}
+									2 {
+										name = Content3
+										colPos = 32
+										colspan = 3
+									}
+								}
+							}
+							5 {
+								columns {
+									1 {
+										name = Content4
+										colPos = 38
+										colspan = 6
+									}
+								}
+							}
+						}
+					}
 				}
-			}
-		}
-		2 {
-			columns {
-				1 {
-					name = Top1
-					colPos = 35
-					colspan = 2
-				}
-				2 {
-					name = Top2
-					colPos = 36
-					colspan = 2
-				}
-				3 {
-					name = Top3
-					colPos = 37
-					colspan = 2
-				}
-			}
-		}
-		3 {
-			columns {
-				1 {
-					name = Content1
-					colPos = 33
-					colspan = 6
-				}
-			}
-		}
-		4 {
-			columns {
-				1 {
-					name = Content2
-					colPos = 31
-					colspan = 3
-				}
-				2 {
-					name = Content3
-					colPos = 32
-					colspan = 3
-				}
-			}
-		}
-		5 {
-			columns {
-				1 {
-					name = Content4
-					colPos = 38
-					colspan = 6
-				}
-			}
-		}
-	}
+                icon = EXT:t3_repute/Resources/Public/Images/BackendLayouts/accueil-2.gif
+            }
+        }
+    }
 }
