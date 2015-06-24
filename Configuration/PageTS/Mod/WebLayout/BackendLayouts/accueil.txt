@@ -1,0 +1,77 @@
+################################
+#### BACKENDLAYOUT: DEFAULT ####
+################################
+mod {
+	web_layout {
+		BackendLayouts {
+			default {
+				title = accueil defaut
+				config {
+					backend_layout {
+						colCount = 6
+						rowCount = 5
+						rows {
+							1 {
+								columns {
+									1 {
+										name = carousel et texte
+										colspan = 6
+										colPos = 30
+									}
+								}
+							}
+							2 {
+								columns {
+									1 {
+										name = texte et icones
+										colspan = 2
+										colPos = 31
+									}
+									2 {
+										name = texte et icone
+										colspan = 4
+										colPos = 32
+									}
+								}
+							}
+							3 {
+								columns {
+									1 {
+										name = divers
+										colspan = 6
+										colPos = 33
+									}
+								}
+							}
+							4 {
+								columns {
+									1 {
+										name = news flash info
+										colPos = 34
+									}
+									2 {
+										name = latest news
+										colspan = 5
+										colPos = 35
+									}
+								}
+							}
+							5 {
+								columns {
+									1 {
+										name = bas
+										colspan = 6
+										colPos = 36
+									}
+								}
+							}
+						}
+					}
+
+				}	
+				
+				icon = EXT:bootstrap_package/Resources/Public/Images/BackendLayouts/default.gif
+			}			
+		}	
+	}	
+}
