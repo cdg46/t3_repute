@@ -15,6 +15,7 @@ mod {
 								columns {
 									1 {
 										name = 0x0
+										colPos = 30
 										colspan = 2
 									}
 								}
@@ -23,9 +24,11 @@ mod {
 								columns {
 									1 {
 										name = 0x1
+										colPos = 31
 									}
 									2 {
 										name = 1x1
+										colPos = 32
 									}
 								}
 							}
@@ -33,6 +36,7 @@ mod {
 								columns {
 									1 {
 										name = 0x2
+										colPos = 33
 										colspan = 2
 									}
 								}
