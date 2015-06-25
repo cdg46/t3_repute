@@ -1,0 +1,16 @@
+<f:layout name="Default">
+<f:section name="Main">
+
+    <div class="container">
+	<!-- test de comm -->
+        <div class="row">
+			<div class="col-md-9">
+				<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '0'}" />
+			</div>
+			<div class="col-md-3">
+				<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '2'}" />
+			</div>
+		</div>
+	</div>
+
+</f:section>
