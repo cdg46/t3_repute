@@ -12,3 +12,10 @@ page {
 
 	}
 }
+page {
+	fluidtemplate {
+		templateRootPath = EXT:t3_repute/Resources/Private/Templates/Page/
+		layoutRootPath = EXT:t3_repute/Resources/Private/Layouts/Page/
+		partialRootPath = EXT:t3_repute/Resources/Private/Partials/Page/
+	}
+}

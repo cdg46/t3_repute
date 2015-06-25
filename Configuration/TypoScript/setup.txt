@@ -1,58 +1,26 @@
 page {
 	10 {
+		templateName.stdWrap.cObject <
+		templateName.stdWrap.cObject = CASE
 		templateName.stdWrap.cObject {
 			key.data = levelfield:-1, backend_layout_next_level, slide
 			key.override.field = backend_layout
 			
 			bootstrap_package__accueil_1 = TEXT
-			bootstrap_package__accueil_1.value = {$page.fluidtemplate.templateRootPath}Accueil.html
-			bootstrap_package__accueil_1.insertData = 1
+			bootstrap_package__accueil_1.value = Accueil_1
 			
 			bootstrap_package__accueil_2 = TEXT
-			bootstrap_package__accueil_2.value = {$page.fluidtemplate.templateRootPath}Accueil_2.html
-			bootstrap_package__accueil_2.insertData = 1
+			bootstrap_package__accueil_2.value = Accueil_2
 			
 			bootstrap_package__accueil_3 = TEXT
-			bootstrap_package__accueil_3.value = {$page.fluidtemplate.templateRootPath}Accueil_3.html
-			bootstrap_package__accueil_3.insertData = 1
+			bootstrap_package__accueil_3.value = Accueil_3
 			
 			bootstrap_package__blog_repute = TEXT
-			bootstrap_package__blog_repute.value = {$page.fluidtemplate.templateRootPath}Blog.html
-			bootstrap_package__blog_repute.insertData = 1
+			bootstrap_package__blog_repute.value = Blog
 			
 			default = TEXT
-			default.value = {$page.fluidtemplate.templateRootPath}Blog.html
-			default.insertData = 1
+			default.value = Blog
 
-		}
-		variables {
-			themeNavigationbar = TEXT
-			themeNavigationbar.value = {$page.theme.navigationbar}
-		}
-
-		templateRootPaths {
-			0 = EXT:bootstrap_package/Resources/Private/Templates/Page/
-			1 = {$page.fluidtemplate.templateRootPath}
-		}
-		partialRootPaths {
-			0 = EXT:bootstrap_package/Resources/Private/Partials/Page/
-			1 = {$page.fluidtemplate.partialRootPath}
-		}
-		layoutRootPaths {
-			0 = EXT:bootstrap_package/Resources/Private/Layouts/Page/
-			1 = {$page.fluidtemplate.layoutRootPath}
 		}
 	}
 }
-
-[globalVar = LIT:1 = {$page.theme.breadcrumb}]
-	lib.navigation.breadcrumb = COA
-	lib.navigation.breadcrumb {
-		wrap = <div class="page-header"><div class="container">|</div></div>
-		10.1.wrap = <h1 class="page-title pull-left">page:title</h1><ol class="breadcrumb">|</ol>
-	}
-[end]
-
-[globalVar= LIT:1={$page.10.variables.onePage.value}]
-#	page.includeCSS.theme = EXT:t3_repute/Resources/Private/Less/Theme/main-one-page.less
-[global]
