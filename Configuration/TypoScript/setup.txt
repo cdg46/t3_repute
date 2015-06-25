@@ -1,9 +1,7 @@
 page {
 	10 {
-		templateName = TEXT
-		#templateName.stdWrap.cObject <
-		templateName.stdWrap.cObject = CASE
-		templateName.stdWrap.cObject {
+		file.stdWrap.cObject = CASE
+		file.stdWrap.cObject {
 			key.data = levelfield:-1, backend_layout_next_level, slide
 			key.override.field = backend_layout
 			
