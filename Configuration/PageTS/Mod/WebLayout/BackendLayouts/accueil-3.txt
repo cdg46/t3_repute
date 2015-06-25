@@ -1,0 +1,51 @@
+##############################
+####  BELAYOUT: ACCUEIL3  ####
+##############################
+mod {
+    web_layout {
+        BackendLayouts {
+            accueil3 {
+                title = LLL:EXT:
+                config {
+					backend_layout {
+						colCount = 2
+						rowCount = 3
+						rows {
+							1 {
+								columns {
+									1 {
+										name = 0x0
+										colPos = 30
+										colspan = 2
+									}
+								}
+							}
+							2 {
+								columns {
+									1 {
+										name = 0x1
+										colPos = 31
+									}
+									2 {
+										name = 1x1
+										colPos = 32
+									}
+								}
+							}
+							3 {
+								columns {
+									1 {
+										name = 0x2
+										colPos = 33
+										colspan = 2
+									}
+								}
+							}
+						}
+					}
+				}
+                icon = EXT::t3_repute/Resources/Public/Images/BackendLayouts/accueil-2.gif
+            }
+        }
+    }
+}
