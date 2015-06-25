@@ -28,7 +28,7 @@ mod {
 						}
 					}
                 }
-                icon = EXT:t3_repute/Resources/Public/Images/BackendLayouts/Blog.gif
+                icon = EXT:t3_repute/Resources/Public/Images/BackendLayouts/blog.gif
             }
         }
     }
