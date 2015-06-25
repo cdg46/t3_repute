@@ -10,3 +10,5 @@ if (!defined('TYPO3_MODE')) {
  * Theme Ville sur Lot TypoScript Setup
  */
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/', 'theme repute');
+
+?>

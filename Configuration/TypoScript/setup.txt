@@ -9,11 +9,11 @@ page {
 			bootstrap_package__accueil_1.insertData = 1
 			
 			bootstrap_package__accueil_2 = TEXT
-			bootstrap_package__accueil_2.value = {$page.fluidtemplate.templateRootPath}Accueil-2.html
+			bootstrap_package__accueil_2.value = {$page.fluidtemplate.templateRootPath}Accueil_2.html
 			bootstrap_package__accueil_2.insertData = 1
 			
 			bootstrap_package__accueil_3 = TEXT
-			bootstrap_package__accueil_3.value = {$page.fluidtemplate.templateRootPath}Accueil-3.html
+			bootstrap_package__accueil_3.value = {$page.fluidtemplate.templateRootPath}Accueil_3.html
 			bootstrap_package__accueil_3.insertData = 1
 			
 			bootstrap_package__blog_repute = TEXT
